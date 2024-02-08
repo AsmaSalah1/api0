@@ -1,0 +1,30 @@
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap:30px;
+}
+.yy{
+  height: 300px;
+  width: 300px;
+  border-radius: 10%;
+
+}
+.asma{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  border-radius: 20%;
+  background-color: aliceblue;
+}
+.asma h2{
+    text-align: center;
+}
+.asma h4{
+    color: rgb(104, 82, 82);
+}
+.asma span:first-of-type{
+    font-size: 25px;
+    color: rgb(104, 82, 82);
+    font-weight: bold;
+}
